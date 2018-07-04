@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="SampleProject.LoginPage">
+    <ContentPage.Content>
+        <StackLayout
+            VerticalOptions="CenterAndExpand"
+            HorizontalOptions="CenterAndExpand"
+            WidthRequest="200">
+            <Label
+                Text="Login">
+            </Label>
+            <Entry
+                x:Name="loginEntry">
+            </Entry>
+            <Label
+                Text="Password">
+            </Label>
+            <Entry
+                x:Name="passwordEntry">
+            </Entry>
+            <Button
+                x:Name="buttonLogin"
+                Text="Login"
+                Clicked="Handle_Clicked" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
